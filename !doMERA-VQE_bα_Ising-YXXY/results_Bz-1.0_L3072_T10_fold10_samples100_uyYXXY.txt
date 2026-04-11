@@ -1,0 +1,44 @@
+---------- Summary ----------
+100 samples
+
+Initial δe:
+	Mean=0.8945641864082439; Std=0.3555977356978134
+
+Final δe:
+	Best=0.0014242117384817288;
+	Mean=0.003745091511193215; Std=0.006050388294600527
+
+
+---------- Best δe ----------
+
+Gate angles (π unit):
+
+layer 1-10: [9.66112193911688e-13, -8.542055951465954e-13, 0.17048901794978702, -0.05764187614448635] (unitary, yyYXXY type),  [-0.04358361876046035, 0.17897167590557417] (isometry, YXXY type)
+
+
+sum|angles|=0.4506861887621282
+
+
+------ Best ∑|angles| -------
+
+δe - δe_best=0.0; min ∑|angles| - (∑|angles|_bestEnergy)=-1.4210577159445847e-10
+
+Gate angles (π unit):
+
+layer 1-10: [-5.3515414322191646e-11, -6.461808865765306e-11, 0.1704890180502, -0.05764187615516336] (unitary, yyYXXY type),  [-0.04358361862667559, 0.17897167566984992] (isometry, YXXY type)
+
+
+------ Quantum circuit structure (time arrow starts from right to left) ------ 
+
+	yyYXXY type:
+
+—— Ry(θ1) —— · ————————————————— · ——       qubit 1
+             |  YX(θ3)  XY(θ4)   |          
+—— Ry(θ2) —— · ————————————————— · ——       qubit 2
+
+
+	YXXY type:
+
+—— · ————————————————— · ——       qubit 1
+   |  YX(θ1)  XY(θ2)   |          
+—— · ————————————————— · ——       qubit 2

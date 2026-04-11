@@ -1,0 +1,37 @@
+---------- Summary ----------
+100 samples
+
+Initial δe:
+	Mean=0.8554819696820569; Std=0.43621660861184003
+
+Final δe:
+	Best=0.0014242117384817288;
+	Mean=0.019796660217285485; Std=0.1837244847880347
+
+
+---------- Best δe ----------
+
+Gate angles (π unit):
+
+layer 1-10: [0.17048901794223795, -0.05764187614333327] (unitary, yyYXXY type),  [-0.043583618768221255, 0.1789716759085594] (isometry, YXXY type)
+
+
+sum|angles|=0.4506861887623519
+
+
+------ Best ∑|angles| -------
+
+δe - δe_best=4.440892098500626e-16; min ∑|angles| - (∑|angles|_bestEnergy)=-4.057759683817608e-10
+
+Gate angles (π unit):
+
+layer 1-10: [0.17048901812927356, -0.05764187619844141] (unitary, yyYXXY type),  [-0.04358361851568482, 0.17897167551317614] (isometry, YXXY type)
+
+
+------ Quantum circuit structure (time arrow starts from right to left) ------ 
+
+	YXXY type:
+
+—— · ————————————————— · ——       qubit 1
+   |  YX(θ1)  XY(θ2)   |          
+—— · ————————————————— · ——       qubit 2
