@@ -1,0 +1,44 @@
+---------- Summary ----------
+100 samples
+
+Initial δe:
+	Mean=1.1306436819610328; Std=0.46340700205680546
+
+Final δe:
+	Best=0.00019667603614759166;
+	Mean=0.00019667603614802686; Std=2.0188564464173895e-16
+
+
+---------- Best δe ----------
+
+Gate angles (π unit):
+
+layer 1: [0.16148386263647466, -0.056145691508003415] (unitary, YXXY type),  [-0.02633623257988793, 0.13609039706878254] (isometry, YXXY type)
+layer 2: [0.13118304250021381, -0.0383352598604525] (unitary, YXXY type),  [-0.019513199676447934, 0.1145574729714855] (isometry, YXXY type)
+layer 3: [0.08035122878854976, -0.021415347769675463] (unitary, YXXY type),  [-0.0096600845365713, 0.06892662021737829] (isometry, YXXY type)
+layer 4: [0.010069626069892758, 0.01006953360769033] (unitary, YXXY type),  [-0.061861621487427465, 0.08198065488845328] (isometry, YXXY type)
+
+
+sum|angles|=1.027979876167387
+
+
+------ Best ∑|angles| -------
+
+δe - δe_best=6.661338147750939e-16; min ∑|angles| - (∑|angles|_bestEnergy)=-0.1237236243355685
+
+Gate angles (π unit):
+
+layer 1: [0.16148386220856606, -0.056145691039417356] (unitary, YXXY type),  [-0.026336232971895024, 0.13609039755326982] (isometry, YXXY type)
+layer 2: [0.13118304466545372, -0.038335262401052006] (unitary, YXXY type),  [-0.019513201515766854, 0.11455747441675339] (isometry, YXXY type)
+layer 3: [0.08035123898461685, -0.021415344885050702] (unitary, YXXY type),  [-0.009659887463788985, 0.06892642357076442] (isometry, YXXY type)
+layer 4: [0.01006948444610831, 0.010069673467726789] (unitary, YXXY type),  [0.01589595043872808, 0.004223081802860204] (isometry, YXXY type)
+
+
+------ Quantum circuit structure (time arrow starts from right to left) ------ 
+
+
+	YXXY type:
+
+—— · ————————————————— · ——       qubit 1
+   |  YX(θ1)  XY(θ2)   |          
+—— · ————————————————— · ——       qubit 2
