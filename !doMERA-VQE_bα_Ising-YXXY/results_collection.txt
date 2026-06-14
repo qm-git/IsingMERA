@@ -9,7 +9,7 @@ Parameter Range (g):
     g ranges from 0.5 to 2.0 in steps of 0.05, with additional specific points at 0.93, 0.98, 0.99, 0.995, 0.999 and 1.02.
     
 Tensor Network Architecture:
-    Type: Binary MERA 
+    Type: Binary MERA (uncapped)
     Tensor Block Type: YXXY [2 elements] or yyYXXY [4 elements]
     
 MERA Layer Numbers:
